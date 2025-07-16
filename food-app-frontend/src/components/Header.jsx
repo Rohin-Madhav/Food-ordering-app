@@ -9,8 +9,8 @@ function Header() {
       <Link to={"/"} className="text-2xl font-bold text-white">
         Food Ordering App
       </Link>
-      <nav className="flex space-x-6">
-        <Link to={"/"} className="text-white hover:text-yellow-400 transition">
+      <nav className="flex space-x-6 ">
+        <Link to={"/"} className="text-white hover:text-yellow-400 transition ">
           Home
         </Link>
         <Link
@@ -18,6 +18,12 @@ function Header() {
           className="text-white hover:text-yellow-400 transition"
         >
           Menu
+        </Link>
+        <Link
+          to={"/login"}
+          className="text-white hover:text-yellow-400 transition"
+        >
+          Login
         </Link>
         <Link
           to={"cart"}

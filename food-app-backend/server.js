@@ -91,7 +91,27 @@ app.post('/api/admin/login', (req, res) => {
         res.status(401).send('Invalid admin credentials');
     }
 });
-// NOTE: A '/logout' endpoint is not needed with JWT. The client simply discards the token.
+// Admin Register - Creates a new admin user
+app.post('/api/admin/register', (req, res) => {
+  const { username, password } = req.body;
+
+  if (!username || !password) {
+    return res.status(400).send('Username and password are required.');
+  }
+
+  const db = readDB();
+  const existingAdmin = db.admins.find(a => a.username === username);
+
+  if (existingAdmin) {
+    return res.status(409).send('Username already exists.');
+  }
+
+  db.admins.push({ username, password });
+  writeDB(db);
+
+  res.status(201).send({ message: 'Admin registered successfully' });
+});
+
 
 // Add a new food item (Protected by JWT)
 app.post('/api/food', requireAdminLogin, upload.single('image'), (req, res) => {

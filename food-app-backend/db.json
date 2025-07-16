@@ -1,94 +1,98 @@
 {
-    "admins": [
-        {
-            "username": "admin",
-            "password": "password"
-        }
-    ],
-    "foodItems": [
-        {
-            "id": 1,
-            "name": "Pizza",
-            "image": "/public/uploads/pexels-brettjordan-825661.jpg",
-            "recipe": "Dough, cheese, tomato sauce, toppings",
-            "price": 12.99
-        },
-        {
-            "id": 2,
-            "name": "Burger",
-            "image": "/public/uploads/pexels-chevanon-1108117.jpg",
-            "recipe": "Bun, patty, lettuce, tomato, cheese",
-            "price": 8.99
-        },
-        {
-            "id": 3,
-            "name": "Pasta",
-            "image": "/public/uploads/pexels-fariphotography-803963.jpg",
-            "recipe": "Pasta, sauce, cheese, herbs",
-            "price": 10.99
-        },
-        {
-            "id": 4,
-            "name": "Sushi",
-            "image":"/public/uploads/pexels-bertellifotografia-31393440.jpg",
-            "recipe": "Rice, fish, seaweed, vegetables",
-            "price": 14.99
-        },
-        {
-            "id": 5,
-            "name": "Salad",
-            "image": "/public/uploads/pexels-nadin-sh-78971847-19409039.jpg",
-            "recipe": "Lettuce, tomato, cucumber, dressing",
-            "price": 7.99
-        },
-        {
-            "id": 6,
-            "name": "Tacos",
-            "image": "/public/uploads/pexels-roman-odintsov-4958792.jpg",
-            "recipe": "Tortilla, beef, lettuce, cheese, salsa",
-            "price": 9.99
-        },
-        {
-            "id": 7,
-            "name": "Steak",
-            "image": "/public/uploads/pexels-pascal-claivaz-66964-410648.jpg",
-            "recipe": "Beef steak, seasoning, sides",
-            "price": 19.99
-        },
-        {
-            "id": 8,
-            "name": "Ice Cream",
-            "image": "/public/uploads/pexels-prolificpeople-29851704.jpg",
-            "recipe": "Milk, sugar, flavoring",
-            "price": 5.99
-        },
-        {
-            "id": 9,
-            "name": "Sandwich",
-            "image": "/public/uploads/pexels-adela-cristea-1500783-4491396.jpg",
-            "recipe": "Bread, ham, cheese, lettuce, tomato",
-            "price": 6.99
-        },
-        {
-            "id": 10,
-            "name": "Soup",
-            "image": "/public/uploads/pexels-catscoming-1731535.jpg",
-            "recipe": "Broth, vegetables, meat, seasoning",
-            "price": 7.49
-        },
-        {
-            "id": 11,
-            "name": "Fries",
-            "image": "/public/uploads/pexels-valeriya-1893556.jpg",
-            "recipe": "Potatoes, oil, salt",
-            "price": 3.99
-        },
-        {
-            "id": 12,
-            "name": "Chicken Wings",
-            "image": "/public/uploads/pexels-huzaifabukhari-16845335.jpg",
-            "recipe": "Chicken, spices, sauce",
-            "price": 11.99
-        }
-    ]
+  "admins": [
+    {
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "username": "rohin",
+      "password": "12345"
+    }
+  ],
+  "foodItems": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "image": "/public/uploads/pexels-brettjordan-825661.jpg",
+      "recipe": "Dough, cheese, tomato sauce, toppings",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "image": "/public/uploads/pexels-chevanon-1108117.jpg",
+      "recipe": "Bun, patty, lettuce, tomato, cheese",
+      "price": 8.99
+    },
+    {
+      "id": 3,
+      "name": "Pasta",
+      "image": "/public/uploads/pexels-fariphotography-803963.jpg",
+      "recipe": "Pasta, sauce, cheese, herbs",
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "name": "Sushi",
+      "image": "/public/uploads/pexels-bertellifotografia-31393440.jpg",
+      "recipe": "Rice, fish, seaweed, vegetables",
+      "price": 14.99
+    },
+    {
+      "id": 5,
+      "name": "Salad",
+      "image": "/public/uploads/pexels-nadin-sh-78971847-19409039.jpg",
+      "recipe": "Lettuce, tomato, cucumber, dressing",
+      "price": 7.99
+    },
+    {
+      "id": 6,
+      "name": "Tacos",
+      "image": "/public/uploads/pexels-roman-odintsov-4958792.jpg",
+      "recipe": "Tortilla, beef, lettuce, cheese, salsa",
+      "price": 9.99
+    },
+    {
+      "id": 7,
+      "name": "Steak",
+      "image": "/public/uploads/pexels-pascal-claivaz-66964-410648.jpg",
+      "recipe": "Beef steak, seasoning, sides",
+      "price": 19.99
+    },
+    {
+      "id": 8,
+      "name": "Ice Cream",
+      "image": "/public/uploads/pexels-prolificpeople-29851704.jpg",
+      "recipe": "Milk, sugar, flavoring",
+      "price": 5.99
+    },
+    {
+      "id": 9,
+      "name": "Sandwich",
+      "image": "/public/uploads/pexels-adela-cristea-1500783-4491396.jpg",
+      "recipe": "Bread, ham, cheese, lettuce, tomato",
+      "price": 6.99
+    },
+    {
+      "id": 10,
+      "name": "Soup",
+      "image": "/public/uploads/pexels-catscoming-1731535.jpg",
+      "recipe": "Broth, vegetables, meat, seasoning",
+      "price": 7.49
+    },
+    {
+      "id": 11,
+      "name": "Fries",
+      "image": "/public/uploads/pexels-valeriya-1893556.jpg",
+      "recipe": "Potatoes, oil, salt",
+      "price": 3.99
+    },
+    {
+      "id": 12,
+      "name": "Chicken Wings",
+      "image": "/public/uploads/pexels-huzaifabukhari-16845335.jpg",
+      "recipe": "Chicken, spices, sauce",
+      "price": 11.99
+    }
+  ]
 }

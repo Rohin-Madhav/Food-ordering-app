@@ -8,16 +8,17 @@ import Layout from "./Layout";
 import AdminHome from "./Pages/AdminHome";
 import NotFound from "./pages/NotFound";
 
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="menu" element={<Menu />} />
           <Route path="cart" element={<Cart />} />
         </Route>
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/admin/product" element={<AdminHome />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

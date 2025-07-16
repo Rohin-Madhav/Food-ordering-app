@@ -7,15 +7,18 @@ function Login() {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+    
       const response = await fetch(`${apiUrl}/api/admin/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ username, password }),
+        
       });
       if (!response.ok) {
         throw new Error("Login failed");
@@ -24,7 +27,9 @@ function Login() {
 
       console.log("Login successful:", data.token);
       localStorage.setItem("token", `${data.token}`);
-      navigate("/admin/product");
+      navigate("/");
+   
+
     } catch (error) {
       console.error("Error:", error.message);
     }
